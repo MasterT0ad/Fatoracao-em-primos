@@ -1,5 +1,3 @@
-# o trabalho foi feito por: João Francisco Callegari (ra143496) e Beatriz Miranda da Silva (ra143912)
-
 # vamos definir a estrutura e o funcionamento do código em sequência:
 # 1) receber o input do usuário com qualquer número inteiro;
 # 2) após receber o número, passaremos ele pelo teste de Miller-Rabin, para verificação de primos,
@@ -255,5 +253,6 @@ if __name__ == "__main__": # aparentemente a gente precisa disso aqui pra chamar
 # boa parte das explicações, analogias e conceitos utilizados foram extraídos daqui
 # segue tb o link do github com o arquivo.py:
 # https://github.com/MasterT0ad/Fatoracao-em-primos
+
 
 # esse trabalho nos custou aproxidamente 11h de esforço mental
