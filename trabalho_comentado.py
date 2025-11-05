@@ -100,6 +100,8 @@ def eh_primo(n):
         if not encontrado:
             return False # ou seja, n é um número composto e passará para o algorítimo de Pollard's Rho.
 
+    return True
+
 
 def pollards_rho(n, iteracao=0):
     # definida a função do algorítimo;
@@ -191,6 +193,9 @@ def pollards_rho(n, iteracao=0):
             return pollards_rho(n, iteracao+1) # retorna desde ao começo e incrementa 1 para o limite de tentativas;
         elif d > 1: # o fator próprio
             return d
+        contador += 1
+
+    return pollards_rho(n, iteracao+1)
 
 
 def fatorizar(n):
@@ -256,3 +261,4 @@ if __name__ == "__main__": # aparentemente a gente precisa disso aqui pra chamar
 
 
 # esse trabalho nos custou aproxidamente 11h de esforço mental
+
