@@ -1,4 +1,3 @@
-# o trabalho foi feito por: João Francisco Callegari (ra143496) e Beatriz Miranda da Silva (ra143912)
 import math
 import random
 def eh_primo(n):
@@ -117,4 +116,5 @@ def main():
         print("Seus fatores primos são: %s" %resultado_formatado)
         
 if __name__ == "__main__":
+
     main()
