@@ -26,8 +26,7 @@ def eh_primo(n):
             continue 
 
         encontrado = False
-        for j in range(c): 
-        
+        for j in range(c-1): 
             if x == n-1:
                 encontrado = True
                 break
@@ -111,10 +110,8 @@ def main():
         print("O algorítimo irá rodar para encontrar seus fatores...")
 
         fatores = fatorizar(n)
-        resultado_formatado = " ".join(map(str, fatores))
 
-        print("Seus fatores primos são: %s" %resultado_formatado)
+        print("Seus fatores primos são: %s" %fatores)
         
 if __name__ == "__main__":
-
     main()
