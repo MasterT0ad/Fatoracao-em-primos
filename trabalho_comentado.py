@@ -241,9 +241,8 @@ def main():
         print("O algorítimo irá rodar para encontrar seus fatores...")
 
         fatores = fatorizar(n)
-        resultado_formatado = " ".join(map(str, fatores)) # a função map pega e converte todos os fatores em str (caracteres), o join junta todos em uma unica str e os separa por " ".
 
-        print("Seus fatores primos são: %s" %resultado_formatado)
+        print("Seus fatores primos são: %s" %fatores)
 
 if __name__ == "__main__": # aparentemente a gente precisa disso aqui pra chamar a função main na hora que o código compilar, o padrão em python é que __name__ tem valor "__main__", entao esse if basicamente chama a função main sempre
     main()
@@ -261,4 +260,5 @@ if __name__ == "__main__": # aparentemente a gente precisa disso aqui pra chamar
 
 
 # esse trabalho nos custou aproxidamente 11h de esforço mental
+
 
